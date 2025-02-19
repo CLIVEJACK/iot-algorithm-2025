@@ -8,7 +8,7 @@ class Graph():
 def printGraph(g):
     print(' ', end=' ')
     for v in range(g.SIZE):
-        print("%9s"% storeAry[v][0],end='')
+        print("%9s"% storeAry[v][0],end=' ')
     print()
     for row in range(g.SIZE) : 
         print("%9s"% storeAry[row][0],end='')
