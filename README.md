@@ -111,5 +111,5 @@ https://github.com/user-attachments/assets/d6fe6c51-444e-4790-89c5-b4b1cfbbd47b
 ## 8일차 
 - 자료구조/알고리즘
     - 검색 : [노트북](./day08/da01search.ipynb)
-        - 검색 구현: [파이썬](./day08/p476.py)
+        - 검색 구현: [파이썬](./day08/da02_sorted_search.py)
     - 코딩테스트 
