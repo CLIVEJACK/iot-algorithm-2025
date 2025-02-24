@@ -45,7 +45,14 @@ print('# 도서명 색인표 ==>', nameIndex)
 authIndex = makeIndex(bookAry, 1)
 print('# 작가명 색인표 ==>', authIndex)
 
-findName = input("입력 > ")
+findName = input('작가의 이름을 입력하세요 >')
+findPos = bookSearch(nameIndex, findName)
+if findPos != -1 :
+    print(findName, '의작가는', bookAry[findPos][1],'입니다.') 
+else:
+    print(findName,'책은 없습니다.')
+
+findName = input('도서의 이름을 입력하세요 >')
 findPos = bookSearch(authIndex, findName)
 if findPos != -1 :
     print(findName, '의도서는', bookAry[findPos][0],'입니다.') 
