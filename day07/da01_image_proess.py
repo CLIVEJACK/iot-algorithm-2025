@@ -7,7 +7,7 @@ root = Tk()
 root.geometry('600x600')
 root.title('이지미처리')
 
-photo = PhotoImage(file='./image/ouna.png')
+photo = PhotoImage(file='./image/ouna.png') # ouna.png 파일은 강사님이 카톡에 보내준 티컵강아지 사진으로 바꾸시면 됩니다
 
 photoAry = []
 h = photo.height()  # 600
